@@ -177,49 +177,7 @@ for i in range(rows):
             print("0",i)
 # w.close()
 
-# labels_predicted_file = open("a2.txt", "r")
-# labels_true_file = open("breast_cancer.labels.txt", "r")
 
-# labels_true = {}
-# labels_predicted_file_line = labels_predicted_file.readline()
-# labels_true_file_line = labels_true_file.readline()
-
-# n = []
-# n.append(0)
-# n.append(0)
-
-# while(labels_true_file_line != ''):
-#     a = labels_true_file_line.split()
-#     labels_true[int(a[1])] = int(a[0])
-#     labels_true_file_line = labels_true_file.readline()
-
-# labels_predicted = {}
-
-# w = 0
-# x = 0
-# y = 0
-# z = 0
-# while(labels_predicted_file_line != ''):
-#     a = labels_predicted_file_line.split()
-#     labels_predicted[int(a[1])] = int(a[0])
-
-#     if(labels_predicted.get(int(a[1])) == 0 & labels_true.get(int(a[1])) == 0):
-#         w += 1
-#     if(labels_predicted.get(int(a[1])) == 1 & labels_true.get(int(a[1])) == 0):
-#         x += 1
-#     if(labels_predicted.get(int(a[1])) == 0 & labels_true.get(int(a[1])) == 1):
-#         y += 1
-#     if(labels_predicted.get(int(a[1])) == 1 & labels_true.get(int(a[1])) == 1):
-#         z += 1
-#     # else:
-#     # print("false")
-
-#     labels_predicted_file_line = labels_predicted_file.readline()
-
-
-# error = 0.5*((x/(w+x))+(y/(y+z)))
-
-# print(error)
 
 
 
