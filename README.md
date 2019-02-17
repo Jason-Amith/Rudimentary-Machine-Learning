@@ -1,3 +1,3 @@
 # Rudimentary-Machine-Learning
-ML concepts using datasets from the UCI ML repository.
+ML concepts in Python, using datasets from the UCI ML repository.
 
